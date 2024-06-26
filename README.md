@@ -1,8 +1,8 @@
-## QA Automation Assessment
+# QA Automation Assessment
 
 Welcome to the QA Automation assessment. Please follow the instructions below to complete the exercise:
 
-# Preparation
+## Preparation
 Demo Page: Use the SauceDemo application at https://www.saucedemo.com/.
 
 1. Clone the repository to your local machine.
