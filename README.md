@@ -2,6 +2,9 @@
 
 Welcome to the QA Automation assessment. Please follow the instructions below to complete the exercise:
 
+# Preparation
+Demo Page: Use the SauceDemo application at https://www.saucedemo.com/.
+
 1. Clone the repository to your local machine.
 3. Create a new branch named `qa-assessment`.
 4. Write your Cypress test scripts in the `cypress/e2e` folder.
