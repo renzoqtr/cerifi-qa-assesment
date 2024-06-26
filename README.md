@@ -1,20 +1,34 @@
 # QA Automation Assessment
 
-Welcome to the QA Automation assessment. Please follow the instructions below to complete the exercise:
+Welcome to the QA Automation assessment. You will be testing a fictional e-commerce application, SauceDemo, to ensure its functionality and user experience are robust.
 
-## Preparation
+## Challenge
 
-1. **Demo Page**: Use the SauceDemo application at [https://www.saucedemo.com/](https://www.saucedemo.com/).
+We would like you to write end-to-end (E2E) tests for the SauceDemo application using Cypress. You have the freedom to choose a design pattern that you believe is suitable for this project. Your design choices will be assessed in the justification phase, so be mindful of your decisions.
 
-2. **Fork and Clone**:
+## Objectives
+
+- **Technical Skills**: Demonstrate your proficiency with Cypress by automating tests for the application.
+- **Prioritization**: Show how you prioritize features to test, ensuring the most critical functionalities are covered.
+- **Future-proofing**: Illustrate how your framework can be scalable and maintainable for future enhancements.
+- **Documentation**: Include detailed documentation on how to set up and run your tests, ensuring that an interdepartmental team can easily follow your instructions.
+
+## Instructions
+
+1. **Fork and Clone**:
    - Fork this repository to your GitHub account.
    - Clone the forked repository to your local machine.
 
-3. **Create a Branch**:
+2. **Create a Branch**:
    - Create a new branch named `qa-assessment`.
 
-4. **Write Your Scripts**:
+3. **Write Your Scripts**:
    - Write your Cypress test scripts in the `cypress/e2e` folder.
+   - Design and implement a framework that you believe is appropriate for the project.
+
+4. **Documentation**:
+   - Provide comprehensive documentation on how to run the tests.
+   - Justify your design choices and explain how your framework can accommodate future needs.
 
 5. **Commit and Push**:
    - Commit your changes with a meaningful message.
@@ -23,32 +37,26 @@ Welcome to the QA Automation assessment. Please follow the instructions below to
 6. **Pull Request**:
    - Submit a pull request to the original repository.
 
-## Assessment Tasks
+## Considerations
 
-### Basic Script:
-1. **Login with Standard User**:
-   - Write a test to verify page load and basic interactions on the SauceDemo login page using the `standard_user` account.
+- Focus on creating a robust and maintainable test suite.
+- Think about how you would structure your tests to cover critical functionalities.
+- Ensure your documentation is clear and detailed enough for an interdepartmental team to understand and follow.
 
-### Intermediate Script:
-1. **Cart and Checkout**:
-   - Write a test to handle adding items to the cart and completing the checkout process using the `standard_user` account.
+## Example Setup Instructions
 
-### Advanced Script:
-1. **Comprehensive User Journey**:
-   - Write a comprehensive test suite for a user journey using the `standard_user` account, utilizing custom commands and fixtures.
+Include the following in your documentation:
 
-### Additional Exercises Based on Account Types:
+1. **Installation**:
+   - Steps to install Cypress and any other dependencies.
 
-#### Locked Out User:
-1. **Login Failure**:
-   - Write a test to attempt login with the `locked_out_user` account and verify the error message displayed.
+2. **Running Tests**:
+   - Commands to execute the test suite.
 
-#### Problem User:
-1. **UI Validation**:
-   - Write a test to login with the `problem_user` account and verify if any UI elements are misaligned or broken.
+3. **Framework Explanation**:
+   - A brief overview of the design pattern used and its benefits.
 
-#### Performance Glitch User:
-1. **Performance Check**:
-   - Write a test to login with the `performance_glitch_user` account and verify if the page load times are significantly slower, and assert that actions still complete successfully.
+4. **Future-proofing**:
+   - Explain how your framework can be extended or maintained as the application grows.
 
-Good Luck!
+Good luck! 🍀
